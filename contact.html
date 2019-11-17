@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Us</title>
+        <meta charset="utf-8">
+        <meta name="description" content="contact form">
+        <meta name="keywords" content="contact , us , form, launchbox,launch,box">
+        <link rel="stylesheet" href="styles\contact.css">
+        <link rel="shortcut icon" href="images/fav.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/e096953709.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="siteheader">
+            <header>
+                <div class="logo">
+                        <img src="images\logo1.jpg" alt="Logo" width=250 height = 100>
+                </div>
+                <div class="search">
+                    <input type="text" placeholder="Seach for Products, Brands and More.." >
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="signup.html">Login/Sign Up</a></li>
+                    </ul>
+                </div>
+            </header>
+                <nav>
+                        <ul>
+                            <li><a href="home.html">Home</a></li>
+                            <li><a href="laptop.html">Laptop</a></li>
+                            <li><a href="tv.html">Television</a></li>
+                            <li><a href="phones.html">Mobile Phones</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                        </ul>
+                    </nav>
+        </div>
+        <div id="wrapper">
+            <aside>
+                <h1>CONTACT US!</h1>
+                <p>We would love to hear from you!</p>
+                <p>Please use the CONTCT FORM to get opinions from our experts</p>
+            </aside>
+                <main>
+                <form id="form1" method="GET" action="">
+                <p>NAME:</p><br/>
+                <label for="name"></label>
+                <input type = "text" id="name" name="Name" placeholder="Your Name" /><br/>
+                
+                <label for="message"></label>
+                <textarea id="message" name="Message" rows="8" placeholder=" Tell us what's on your  mind..."></textarea><br/>    
+                
+                <p>WOULD YOU LIKE TO RECIEVE ANY NOTIFICATIONS?</p><br/>
+                <label for="notification"></label>
+                <label id="notification"><input type="radio" name="notification" id="noti">YES</label><br/>
+                <label id="notification"><input type="radio" name="notification" id="noti">NO</label><br/>
+
+                <p>WHICH GADGET INTERESTS YOU THE MOST?</p><br/>
+                <label id="gadgets"><input type="checkbox" name="gadget" value="MOBILE PHONES" id="preference">MOBILE PHONES</label><br/>
+                <label id="gadgets"><input type="checkbox" name="gadget" value="LAPTOPS" id="preference">LAPTOPS</label><br/>
+                <label id="gadgets"><input type="checkbox" name="gadget" value="TELEVISIONS" id="preference">TELEVISIONS</label><br/>
+
+                <p>E-Main ADDRESS:</p><br/>
+                <label for="email"><em></label>
+                <input id="email" name="Email" type="text" value="" required placeholder="example123@email.com"/><br/>
+
+                <label for="submit"></label>
+                <button type="submit" name="Submit" value="Submit">Submit</button>
+                </form>
+                </main>
+            </div>
+            <footer>
+                    <div class="bottom">
+                        <div class="sub1bottom">
+                            <h2>Products</h2>
+                            <ul>
+                                <li><a href="laptop.html">Laptop</a></li>
+                                <li><a href="tv.html">Television</a></li>
+                                <li><a href="phones.html">Mobile Phones</a></li>
+                            </ul>       
+                        </div>
+                        <div class="sub2bottom">
+                            <h2>About</h2>
+                            <ul>
+                                <li><a href="contact.html">Contact Us</a></li>
+                                <li><a href="">About Us</a></li>
+                                <li><a href="">Careers</a></li>
+                            </ul>       
+                        </div>
+                        <div class="sub3bottom">
+                            <h2>Social</h2>
+                            <i class="fab fa-twitter fa-lg"></i>&nbsp;&nbsp;Twitter<br>
+                            <i class="fab fa-facebook fa-lg"></i>&nbsp;&nbsp;Facebook<br>
+                            <i class="fab fa-instagram fa-lg"></i>&nbsp;&nbsp;Instagram<br>
+                        </div>
+                        <div class="sub4bottom">
+                            <h2>Email Us</h2>
+                            <p>lovish@webdevco.com</p>
+                            <p>madhav@webdevco.com</p>
+                            <p>gunveen@webdevco.com</p>
+                            <p>alexander@webdevco.com</p>
+                        </div>
+                    </div>
+                        &copy; 2019 LaunchBox
+                        <p>Terms & Conditions | Conditions of Use | Privacy Policy | Accessibility Policy | Product Recalls | Credits</p>
+                </footer>      
+    </body>
+</html>

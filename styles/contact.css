@@ -1,0 +1,263 @@
+*{margin:0;padding:0;box-sizing:border-box;font-family: 'Lato';}
+em {font-style: normal;}
+
+/* HEADER STYLE */
+header {
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+.siteheader{
+    width: 100%;
+    min-width: 480px;
+    background: slateblue;
+    padding:0 20px;
+}
+.search{
+    width:40%;
+    height: 100px;
+    line-height: 100px;
+}
+.search input {
+    width:100%;
+    padding: 10px;
+    color:rgb(190, 207, 207);
+    background-color: white;
+}
+.logo img{
+    width:250px;
+    height: 100px;
+    padding-left: 10px;
+    padding-bottom:25px;
+}
+
+.menu{
+    height:100px;
+}
+.menu ul{
+    width:100%;
+	height:50px;
+	display:flex;
+	flex-direction:row;
+	justify-content: flex-end;
+    align-items:center;
+}
+.menu ul li{
+    list-style:none;
+	font-size:20px;
+	font-weight:bold;
+    text-transform:uppercase;
+    margin-top:55px;
+    padding-right: 10px;
+}
+.menu ul li a{
+    color:white;
+    text-decoration: none;
+    padding-bottom:15px;
+}
+.menu ul li a:hover{
+    border-bottom: 2px solid white;
+}
+/* NAV STYLES */
+
+nav{
+    width:100%;
+}
+
+nav ul{
+	width:100%;
+	height:50px;
+	display:flex;
+	flex-direction:row;
+	justify-content: space-between;
+    align-items:center;
+    padding-bottom: 20px;
+}
+
+nav ul li {
+	list-style:none;
+	font-size:20px;
+	font-weight:bold;
+    text-transform:uppercase;
+}
+
+nav ul li a{
+    text-align: center;
+    margin-top:20px;
+    padding:10px;
+    padding-bottom: 15px;
+    color:white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    border-bottom: 2px solid white;
+}
+
+/* FOOTER STYLES */
+footer{    
+    padding-top:25px;
+	width:100%;
+	height: auto;
+	background: slateblue;
+    color:white;
+    text-align:center;
+    padding-bottom:15px;
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align:left;
+    margin-bottom: 15px;
+}
+.bottom a {
+    text-decoration: none;
+    color: white;
+}
+.sub4bottom p{
+    padding-top:7px;
+}
+.bottom li{
+    list-style-type: none;
+    padding-top: 7px;
+}
+
+.sub3bottom i{
+    padding-top: 7px;
+}
+
+#wrapper{
+    margin: 0 auto;
+    width: 80%;
+}
+/* BODY STYLES */
+
+body
+{
+    margin: 0;
+	padding: 0;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	font-family: 'Poppins' , sans-serif; 
+}
+h1
+{
+	color: black;
+	font-size: 40px;
+}
+aside{
+    color: black;
+    margin-top: 10px;
+}
+p{
+    margin-top: 10px;
+}
+#form1{
+    margin-top: 40px;
+    margin-right: 20px;
+}
+
+textarea{
+    width: 300px;
+    margin-top: 20px;
+    border-color: black;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+input[ type=text ]{
+    height: 35px;
+}
+input[type=checkbox]{
+    width: 1em; 
+    height: 1em;
+    float: left;
+    margin-left: 40px;
+    margin-bottom: 0.1em ;
+    margin-right: 10px;
+}
+input[ type=radio ]{
+    margin-left: 35px;
+    margin-right: 10px;
+}
+#notification{
+    color: white;
+}
+label{
+    display: block;
+    text-align: left;
+}
+#name{
+    width: 296px;
+}
+#gadgets{
+    
+    color: white;
+}
+#email{
+    width: 296px;
+}
+
+button{
+    width: 220px;
+    height: 35px;
+    margin-top: 30px;
+    margin-bottom: 10px;;
+}
+main{
+    border: solid 2px slategrey;
+    margin:22px 410px 22px 400px;
+    background-color:#00151f;
+}
+#form1{
+    margin: 30px 20px 0 0;
+}
+form p{
+    color: white;
+    text-align: left;
+    padding-left: 35px;
+}
+
+/*Media query for header and footer*/
+@media only screen and (max-width:735px) {
+    #wrapper{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .logo {
+        width: 35%;
+        height: 100px;
+    }
+    .logo img {
+        width: 100%;
+    }
+    nav ul li{
+        font-size:0.8em;
+    }
+    .menu ul li {
+        font-size:0.8em;
+    }
+    .search {
+        width: 30%;
+    }
+    .search input {
+        padding:5px 10px;
+    }
+    footer {
+        padding: 10px;
+        font-size: 0.8em;
+    }
+    main{
+        border: 0;
+    }
+    #form1{
+        margin-left: -360px;
+        padding-top: 10px;
+        width: 320px;
+        height: 790px;
+        background-color: #00151f;
+    }
+}

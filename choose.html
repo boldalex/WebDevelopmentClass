@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Choose a Laptop</title>
+        <meta charset="utf-8">
+        <meta name="keywords" content="Laptops, gaming, ultrabook, workstations">
+        <meta name="description" content ="Let proffesionals help you to choose a laptop">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="styles/laptop.css" rel="stylesheet">
+        <link rel="shortcut icon" href="images/fav.png">
+        <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/e096953709.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="siteheader">
+            <header>
+
+                <div class="logo">
+                    <img src="images/logo1.jpg" alt="Logo" width=250 height = 100>
+                </div>
+                
+                <div class="search">
+                    <input type="text" placeholder="Seach for Products, Brands and More.." size=85>
+                </div>
+
+                <div class="menu">
+                    <ul>
+                        <li><a href="signup.html">Login/Sign Up</a></li>
+                    </ul>
+                </div>
+            </header> 
+			<nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="laptop.html">Laptop</a></li>
+                <li><a href="tv.html">Television</a></li>
+                <li><a href="phones.html">Mobile Phones</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+			</nav>
+        </div>
+        <main>
+            <h1 class="heading">Choose your laptop form</h1><hr>
+            <div class="lab">
+                    <p>On this form you can specify which parameter you want for your laptop. By submitting this short survey
+                            you are helping our specialist to understand your needs and giving them enough information to help you
+                            choose the laptop that fits you best!
+                       </p>
+            </div>
+            <form name="chooseform" id="chooseform" method="POST">
+                <h4 class="heading">Please, provide some information about yourself. This will let us to send information you need.</h4>
+                <label for="name" class="txtlab">Full Name:&nbsp;</label>
+                <input type="text" name="name" id="name" required> <br>
+                <label for="email" class="txtlab">E-Mail:&nbsp;</label>
+                <input type="email" name="email" id="email" required>
+                <h4 class="heading">Now specify parameters wanted for your laptop.</h4>
+                <div class="param">
+                    <p class="txtlab">Screen size:&nbsp;</p>
+                    <div class="check">
+                        <input type="radio" name="screen" id="11" value="11">
+                        <label for="11">11"</label><br>
+                        <input type="radio" name="screen" id="13" value="13">
+                        <label for="13">13"</label><br>
+                        <input type="radio" name="screen" id="15" value="14">
+                        <label for="15">15"</label><br>
+                        <input type="radio" name="screen" id="17" value="15">
+                        <label for="17">17"</label><br>
+                    </div>
+                </div>
+                <div class="param">
+                    <p class="txtlab">Processor:&nbsp;</p>
+                    <div class="check">
+                        <input type="radio" name="proc" id="i3" value="i3">
+                        <label for="i3">Intel i3</label><br>
+                        <input type="radio" name="proc" id="i5" value="i5">
+                        <label for="i5">Intel i5</label><br>
+                        <input type="radio" name="proc" id="i7" value="i7">
+                        <label for="i7">Intel i7</label><br>
+                        <input type="radio" name="proc" id="i9" value="i9">
+                        <label for="i9">Intel i9</label><br>
+                    </div>
+                </div>
+                <div class="param">
+                    <p class="txtlab">RAM:&nbsp;</p>
+                    <div class="check">
+                        <input type="radio" name="ram" id="4gb" value="4gb">
+                        <label for="4gb">4 GB</label> <br>
+                        <input type="radio" name="ram" id="8gb" value="8gb">
+                        <label for="8gb">8 GB</label> <br> 
+                        <input type="radio" name="ram" id="16gb" value="16gb">
+                        <label for="16gb">16 GB</label> <br>
+                    </div>
+                </div>
+                <div class="param">
+                    <p class="txtlab">Disc storage:&nbsp;</p>
+                    <div class="check">
+                        <input type="radio" name="mem" id="1tb" value="1tb">
+                        <label for="1tb">1TB HDD</label> <br>
+                        <input type="radio" name="mem" id="2tb" value="2tb">
+                        <label for="2tb">2TB HDD</label> <br>
+                        <input type="radio" name="mem" id="256ssd" value="256gb">
+                        <label for="256ssd">256GB SSD</label> <br>
+                        <input type="radio" name="mem" id="512ssd" value="512gb">
+                        <label for="512ssd">512GB SSD</label> <br>
+                        <input type="radio" name="mem" id="hdd+ssd" value="hdd+ssd">
+                        <label for="hdd+ssd">HDD+SSD</label> <br>
+                    </div>
+                </div>
+                <div class="param">
+                    <p class="txtlab">Graphics:&nbsp;</p>
+                    <div class="check">
+                        <input type="radio" name="mem" id="intelhd" value="intelhd">
+                        <label for="intelhd">Intel HD Graphics</label> <br>
+                        <input type="radio" name="mem" id="gtx1050" value="gtx1050">
+                        <label for="gtx1050">NVIDIA GeForce GTX 1050</label> <br>
+                        <input type="radio" name="mem" id="gtx1650" value="gtx1650">
+                        <label for="gtx1650">NVIDIA GeForce GTX 1650</label> <br>
+                        <input type="radio" name="mem" id="rtx2060" value="rtx2060">
+                        <label for="rtx2060">NVIDIA GeForce RTX 2060</label> <br>
+                    </div>
+                </div>
+                <h4 class="heading">Specify some additional requirements.</h4>
+                <div class="add">
+                        <input type="number" name="usb" id="usb" min=1 max=5 value="3">
+                        <label for="typec">of USB ports are required</label><br>
+                        <input type="checkbox" name="typec" id="typec" value="yes">
+                        <label for="typec">USB Type-C port is required</label><br>
+                        <input type="checkbox" name="tscreen" id="tscreen" value="yes">
+                        <label for="tscreen">Touchscreen is required</label>
+                </div>
+
+                <h4 class="heading">Here you can leave some additonal comments on your needs.</h4>
+                <textarea name="comments" id="comments"></textarea>
+                <input type="submit" id="submit" value="Submit">
+            </form>            
+        </main>
+        <footer>
+                <div class="bottom">
+                    <div class="sub1bottom">
+                        <h2>Products</h2>
+                        <ul>
+                            <li><a href="phones.html">Laptop</a></li>
+                            <li><a href="tv.html">Television</a></li>
+                            <li><a href="phones.html">Mobile Phones</a></li>
+                        </ul>       
+                    </div>
+                    <div class="sub2bottom">
+                        <h2>About</h2>
+                        <ul>
+                            <li><a href="contact.html">Contact Us</a></li>
+                            <li><a href="">About Us</a></li>
+                            <li><a href="">Careers</a></li>
+                        </ul>       
+                    </div>
+                    <div class="sub3bottom">
+                        <h2>Social</h2>
+                        <i class="fab fa-twitter fa-lg"></i>&nbsp;&nbsp;Twitter<br>
+                        <i class="fab fa-facebook fa-lg"></i>&nbsp;&nbsp;Facebook<br>
+                        <i class="fab fa-instagram fa-lg"></i>&nbsp;&nbsp;Instagram<br>
+                    </div>
+                    <div class="sub4bottom">
+                        <h2>Email Us</h2>
+                        <p>lovish@webdevco.com</p>
+                        <p>madhav@webdevco.com</p>
+                        <p>gunveen@webdevco.com</p>
+                        <p>alexander@webdevco.com</p>
+                    </div>
+                </div>
+                    &copy; 2019 LaunchBox
+                    <p>Terms & Conditions | Conditions of Use | Privacy Policy | Accessibility Policy | Product Recalls | Credits</p>
+        </footer>  
+    </body>
+</html>
