@@ -9,15 +9,37 @@ Not only that the user would also be provided with the section that would illust
 their previous versions. The users would be specified the date of release of the new gadgets so that the users could make prior bookings.
  Overall, our website is purely for tech geeks and it is just the right stop for the tech lovers. 
 
-## Main Section of the site
+# Main Section of the site
 
-This part has three pages: [main](https://www.lauhchbox.xyz/index.html), [contact us](https://www.lauhchbox.xyz/contact.html) and 
-[sign up](https://www.lauhchbox.xyz/signup.html).
+This part was developed by **Gunveen Kohli**. It contains main page of the website, sign up page and contact us page.
+
+## [Main page](https://www.lauhchbox.xyz/index.html)
+
+### Description :
+> This is home page of our website, where you can find description of each section and links to it.
+
+### Features:
+-
+
+## [Sigh Up page](https://www.lauhchbox.xyz/signup.html)
+
+### Description :
+> This page for registration of new users or for logging in.
+
+### Features:
+-
+
+## [Contact Us page](https://www.lauhchbox.xyz/contact.html)
+
+### Description :
+> This is page where you can leave a feed back about our website..
+
+### Features:
+-
 
 # Laptop section
 
-This section was developed by Alexander Pashtepa and contain information about modern laptops. Here you can find information about some 
-laptop categories, check some best models of laptops amd ask our proffesionals for help.
+This section was developed by **Alexander Pashtepa** and contain information about modern laptops. Here you can find information about some laptop categories, check some best models of laptops amd ask our proffesionals for help.
 
 ## [Laptop page](https://www.lauhchbox.xyz/laptop.html)
 
@@ -94,3 +116,23 @@ best models of phones and also fill the form to add new product to our website.
 ### Features:
  - These pages display complete information, features and specifications of the product.
  - These contain videos of the products also.
+ 
+ # Television section
+ 
+ This section was developed by **Madhav..** and contain information about modern tv.
+ 
+ ## [TV](https://www.lauhchbox.xyz/tv.html)
+
+### Description :
+>  
+
+### Features:
+- 
+
+ ## [Buying guide](https://www.lauhchbox.xyz/buyguide.html)
+
+### Description :
+>  
+
+### Features:
+- 
